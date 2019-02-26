@@ -6,6 +6,7 @@ import { Card } from 'semantic-ui-react'
 const PokemonCollection = (props) => {
   const pokeList = props.pokemon.map(poke =>
     <PokemonCard
+      key={poke.id}
       name={poke.name}
       sprites={poke.sprites}
       hp = {poke.stats.pop()} />)

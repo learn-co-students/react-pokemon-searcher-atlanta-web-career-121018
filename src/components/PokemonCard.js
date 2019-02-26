@@ -24,6 +24,7 @@ class PokemonCard extends React.Component {
   
   
   render() {
+    console.log("rerender")
     return (
       <Card>
         <div>
