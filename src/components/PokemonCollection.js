@@ -9,7 +9,7 @@ const PokemonCollection = (props) => {
       key={poke.id}
       name={poke.name}
       sprites={poke.sprites}
-      hp = {poke.stats.pop()} />)
+      hp = {poke.stats[poke.stats.length - 1]} />)
 
     return (
       <div>
@@ -19,7 +19,6 @@ const PokemonCollection = (props) => {
           </Card.Group>
       </div>
     )
-
 }
 
 export default PokemonCollection

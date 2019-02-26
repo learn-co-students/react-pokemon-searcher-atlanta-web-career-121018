@@ -31,7 +31,7 @@ class PokemonForm extends React.Component {
         name: this.state.name,
         stats: [
           {
-            value: this.state.hp,
+            value: parseInt(this.state.hp),
             name: 'hp'
           }
         ],

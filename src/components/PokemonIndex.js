@@ -33,8 +33,6 @@ class PokemonPage extends React.Component {
     })
   }
 
-  
-
   handleSearch = (e, {value}) => {
     this.setState({ 
       searchEntry: value 

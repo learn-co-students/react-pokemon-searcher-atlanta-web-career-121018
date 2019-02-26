@@ -7328,10 +7328,10 @@
       }
     },
     {
-      "name": "Lugia",
+      "name": "lugia",
       "stats": [
         {
-          "value": "101",
+          "value": 101,
           "name": "hp"
         }
       ],
